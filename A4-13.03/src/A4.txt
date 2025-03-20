@@ -1,0 +1,61 @@
+Classe 
+Representação abstrata do mundo real
+"Coleção de dados (atributos) e operações(métodos) que manipulam tais dados"
+
+Objeto -> instância da classe, representação real da classe 
+
+
+Objeto está para classe da mesma forma que
+variável está para tipo de dado.
+
+Atributos -> características da classe 
+
+Operações/Métodos -> ações da classe 
+
+Metódo construtor = new() 
+serve para puxar os metodos e dar herança ao atributo 
+
+
+Variáveis de classe -> static, nao pode ser setada elas são declaradas e preenchidas dentro da classe
+
+Métodos de Classe nao necessitam de uma instância da classe para serem invocados 
+
+ex: import Math 
+
+ public static void main(String[] args) throws Exception {
+	Math.sqrt(2,5)
+
+}
+
+Atributos final 
+
+Declarados como final não são alterados
+const do java 
+
+Metodo Finalize
+
+Java não tem destrutores 
+Destrutores = Garbage colector, o pc mata a variavel não usada 
+
+
+
+String 
+
+NÃO é primitiva, é uma classe, por isso String e não string 
+
+CAST => conversão do tipo implicita  
+
+nome = nome + “ “ + dez;
+Nome = “ Teste “.concat(“Java”);
+
+
+Classes Wrappers
+
+todo tipo primitivo possui uma classe invólucro, envolve o tipo e permite que seja manipulado como um objeto
+toda classe wrapper fornece um metodo estatico para converter String => tipo correspondente 
+
+String.valueOf(variavel) o retorno é string 
+
+
+
+Vetores e matrizes coleções multimendicionais 
